@@ -8,6 +8,11 @@
     margin-inline-end: 1%;
     position: relative;
 }
+.goods-item:hover {
+    cursor: pointer;
+    border: 1px solid #4CAF50;
+
+}
 header {
 	display: block;
     width: 100%;
@@ -39,15 +44,16 @@ header {
     color: #4CAF50;
     display: block;
     position: relative;
-    top: 25px;
-    text-align: right;
+    top: 60px;
+    text-align: center;
     width: 30%;
-    right: -70%;
+    right: -35%;
+    /* text-decoration: 1px dashed #4CAF50; */
 }
 .goods-item p {
     display: block;
     width: 30%;
-    border: 1px solid #4CAF50;
+    border: 1px solid #78AF0A;
     text-align: right;
     position: relative;
     padding: 1%;
@@ -56,3 +62,38 @@ header {
     right: -68%;
     top: 20px;
 }
+p.brand {
+
+    top: 60px;
+}
+p.color {
+    top: 60px;
+    right: -65px;
+}
+.size {
+
+}
+.span {
+	display: block;
+	position: absolute;
+	font-size: smaller;
+	font-weight: 900;
+	color: #78AF0A;
+}
+
+.brand-title {
+
+    bottom: 95px;
+    right: 105px;
+}
+.color-size-title {
+
+    bottom: 56px;
+    right: 160px;
+}
+.price-title {
+
+    bottom: 15px;
+    right: 105px;
+}
+
